@@ -49,16 +49,16 @@ figcaption {
 based on relationship among other elements
 or event states (like links), */
 
-#details a:link, a.visited {
+#details a:link, a:visited {
   color: black;
   text-decoration: none;
 }
 
-#details a.hover {
+#details a:hover {
   color: black;
   text-decoration: underline;
 }
 
-#details a.active {
+#details a:active {
   color: red;
 }
